@@ -1,0 +1,267 @@
+@font-face {
+    font-family: "Overpass";
+    src: url("./Overpass/Overpass-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "OverpassBold";
+    src: url("./Overpass/Overpass-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "OverpassLight";
+    src: url("./Overpass/Overpass-Light.ttf");
+}
+
+@font-face {
+    font-family: "OverpassRegular";
+    src: url("./Overpass/Overpass-Regular.ttf");
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Overpass";
+}
+
+.header {
+    padding: 30px 0px 18px 0px;
+    text-align: center;
+    /* background-image: url('../../Practice/img/horizontal_1.jpg'); */
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.header img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.backImg {
+    position: absolute;
+    width: 44%;
+    height: 100%;
+    right: 0;
+    z-index: -1;
+}
+
+.text {
+    margin-top: 55px;
+    max-width: 404px;
+    padding: 5% 0px;
+}
+
+.text h1 {
+    font-family: "OverpassBold";
+    font-size: 36px;
+}
+
+.sugg {
+    margin: 50px 0px;
+    color: #666666;
+    line-height: 2rem;
+    font-size: 16px;
+    font-family: "OverpassRegular";
+}
+
+.check {
+    display: flex;
+    line-height: 2rem;
+    font-family: "Overpass";
+    align-items: flex-start;
+    margin: 30px 0px;
+}
+
+.check img {
+    width: 22px;
+    margin-right: 20px;
+    color: rgba(236, 91, 36, 1);
+}
+
+form {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 4rem;
+    width: 550px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 4px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row input {
+    width: 47.5%;
+}
+
+textarea {
+    resize: none;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 16px 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgba(236, 91, 36, 1);
+    color: #fff;
+    padding: 16px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+button img {
+    width: 22px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.facilities {
+    display: flex;
+    padding: 80px 180px;
+    justify-content: space-around;
+}
+
+.item {
+    width: 25%;
+    padding: 15px;
+    /* border: 1px solid red; */
+}
+
+.item img {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.item h2 {
+    font-family: "OverpassBold";
+    margin-bottom: 30px;
+}
+
+.item p {
+    color: #666666;
+    line-height: 1.7rem;
+    font-size: 15px;
+    font-family: "OverpassRegular";
+}
+
+.footer h3 {
+    font-size: 1rem;
+    margin: 0px auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #3a1248;
+    height: 150px;
+    color: #fff;
+    padding: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 850px) {
+
+    .content,
+    .facilities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .check img {
+        margin-top: 10px;
+    }
+
+    .text {
+        max-width: 75%;
+        margin-top: 30px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .sugg {
+        margin: 50px 0px;
+        line-height: 1rem;
+    }
+
+    form {
+        margin: 0px auto;
+        width: 100%;
+        margin-bottom: 80px;
+        padding: 2rem;
+    }
+
+    input {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .backImg {
+        display: none;
+    }
+
+    .facilities {
+        padding: 80px 20px;
+        border-top: 1px solid grey;
+        margin-top: 80px;
+    }
+
+    .item {
+        text-align: center;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+
+    .footer {
+        height: 75px;
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 850px) {
+
+
+    .backImg {
+        display: none;
+    }
+
+    .check img {
+        display: inline;
+    }
+
+    form {
+        width: 90%;
+    }
+}

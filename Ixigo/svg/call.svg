@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xml:space="preserve" class="brz-icon-svg"
+    data-type="outline" data-name="phone-call">
+    <g class="nc-icon-wrapper" fill="none" stroke-width="2px" stroke="rgba(236,91,36,1)" stroke-linecap="square" stroke-miterlimit="10">
+        <path vector-effect="non-scaling-stroke" d="m17 15-3 3-8-8 3-3-5-5-3 3c0 9.941 8.059 18 18 18l3-3-5-5z" />
+        <path data-color="color-2" vector-effect="non-scaling-stroke"
+            d="M14 1c4.971 0 9 4.029 9 9M14 5c2.761 0 5 2.239 5 5" />
+    </g>
+</svg>

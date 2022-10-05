@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xml:space="preserve" class="brz-icon-svg"
+    data-type="outline" data-name="wallet-90">
+    <g class="nc-icon-wrapper" fill="none" stroke-width="2px" stroke="rgba(236,91,36,1)" stroke-linecap="square" stroke-miterlimit="10">
+        <path vector-effect="non-scaling-stroke" d="M6 3H3c-1.105 0-2 .895-2 2v0c0 1.105.895 2 2 2" />
+        <path data-color="color-2" vector-effect="non-scaling-stroke" d="M6 7V1h14v6" />
+        <path vector-effect="non-scaling-stroke" d="M23 7H3c-1.105 0-2-.895-2-2v15c0 1.657 1.343 3 3 3h19V7z" />
+        <circle vector-effect="non-scaling-stroke" cx="17" cy="15" r="2" />
+    </g>
+</svg>
