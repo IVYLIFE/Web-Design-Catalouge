@@ -46,10 +46,15 @@
     width: 94%;
 }
 
-.lastname {
+.lastname{
     text-align: right;
 }
 
+.lastname span{
+    width:94%;
+    margin-left: auto;
+    text-align: left;
+}
 .inputContainer {
     margin-top: -10px 0px;
 }
