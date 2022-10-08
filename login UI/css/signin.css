@@ -1,0 +1,83 @@
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.googlebtn {
+  background-color: rgb(18, 104, 175);
+  border: none;
+  padding: 5px;
+  border-radius: 8px;
+  width: 230px;
+  transition: .3s ease-in-out;
+
+}
+
+.googlebtn:hover{
+  transform: scale(1.045);
+
+}
+
+.google {
+  display: flex;
+  color: #fff;
+}
+
+.google img {
+  width: 30px;
+  padding: 7px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.googlebtn span {
+  margin: auto 25px;
+}
+
+.btnGroup button a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  margin: 0px 0px 0px 10px;
+  width: 45px; 
+  height: 40px;
+  background-color: #f3f3f4;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.twitterbtn:hover{
+  background: #2b97f1;   
+}
+
+.twitterbtn:hover .fa{
+  color: #fff;
+}
+
+.facebookbtn:hover{
+  background: #3b5a9b;
+}
+
+.facebookbtn:hover .fa{
+  color: #fff;
+}
+
+.applebtn:hover{
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.applebtn .fa{
+  transition: .3s ease-in-out;
+}
+
+.applebtn:hover .fa{
+  color: black;
+  transform: scale(1.3);
+}
